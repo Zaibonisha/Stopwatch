@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <img src="logo.png" alt="SkillReactor logo" id="skillreactor_logo" width="120" height="75" />
+   <div id="heading_container">
+    <h1 id="heading">Skillreactor Stopwatch</h1>
+   </div> 
+
+ <div id="stopwatch_container"></div>
+  <strong id="milli_seconds" class="timerDisplay"><span id="seconds">00 : 00: 00 : 000</span></strong>
+ </div>
+ <div class="buttons">
+   <button type="button" id="start_button" class="timer_button"  onClick="startClock()">Start</button>
+   <button type="button" id="stop_button" class="timer_button" onClick="stopClock()">Stop</button>
+   <button type="button" id="reset_button" class="timer_button" onClick="resetClock()">Reset</button>
+   
+ </div>  
+ <script src="index.js"></script>
+</body>
+</html>
