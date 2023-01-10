@@ -8,7 +8,7 @@
 }
 
 body{
-  background: #448aff;
+  background:burlywood;
 }
 
 .timerDisplay{
@@ -18,13 +18,13 @@ body{
     left: 4%;
     padding: 40px 0;
     font-family: 'Roboto mono',monospace;
-    color: #0381bb;
+    color:crimson;
     font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    box-shadow: 0 0 20px rgba(0, 253, 240, 0.855);
 }
 
 .container{
